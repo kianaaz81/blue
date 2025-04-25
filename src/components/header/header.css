@@ -1,0 +1,150 @@
+.circle {
+  width: 550px;
+  height: 550px;
+  display: flex;
+  justify-self: end;
+  margin: 50px;
+  border-radius: 50%;
+  background-color: midnightblue;
+  position: relative;
+}
+.coffee {
+  position: absolute;
+  width: auto;
+  height: 500px;
+  padding-right: 100px;
+  margin-top: -600px;
+  margin-left: 100px;
+}
+.bean {
+  position: absolute;
+  width: auto;
+  height: 220px;
+  margin-top: -245px;
+  margin-left: 350px;
+}
+.text {
+  text-transform: capitalize;
+  color: midnightblue;
+  margin-top: -490px;
+  position: absolute;
+  margin-left: 90px;
+  background: none;
+  text-align: start;
+  width: 750px;
+}
+.text h1 {
+  font-size: 5.5rem;
+}
+.text h3 {
+  font-size: 2rem;
+}
+.text h6 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.menu-btn {
+  background-color: midnightblue;
+  color: khaki;
+  padding: 15px 60px;
+  margin-top: 50px;
+  border-radius: 30px;
+  position: absolute;
+}
+@media (max-width: 1024px) {
+  .head {
+    margin-top: 150px;
+  }
+  .coffee {
+    width: 400px;
+    height: auto;
+    margin: 0 340px;
+  }
+  .header-img {
+    width: 200px;
+    height: 500px;
+    margin-top: -550px;
+    background: none;
+  }
+  .bean {
+    width: 300px;
+    height: auto;
+    margin-top: 350px;
+    right: 0;
+  }
+  .circle {
+    width: 400px;
+    height: 400px;
+  }
+  .text {
+    width: 500px;
+    margin-top: -370px;
+    margin-left: 40px;
+  }
+  .text h1 {
+    font-size: 4vw;
+  }
+
+  .text h3 {
+    font-size: 2vw;
+  }
+
+  .text h6 {
+    width: 400px;
+    font-size: 1.5vw;
+  }
+
+  .menu-btn {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .head {
+    display: grid;
+    align-items: start;
+    justify-items: start;
+    margin: 50px 0;
+    height: 600px;
+  }
+  .circle {
+    width: 320px;
+    height: 320px;
+  }
+  .coffee {
+    width: 300px;
+    height: auto;
+    margin: 0;
+  }
+  .header-img {
+    width: 200px;
+    height: auto;
+    margin-top: -550px;
+    background: none;
+  }
+  .bean {
+    width: 250px;
+    height: auto;
+    margin-top: 270px;
+    margin-left: 180px;
+  }
+  .text {
+    display: grid;
+    align-items: end;
+    justify-items: start;
+    margin-top: 350px;
+    width: 430px;
+    padding: 60px 0;
+  }
+  .text h1 {
+    font-size: 6vw;
+  }
+  .text h3 {
+    font-size: 3vw;
+  }
+  .text h6 {
+    font-size: 2vw;
+  }
+  .menu-btn {
+    padding: 10px 20px;
+  }
+}

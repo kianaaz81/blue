@@ -1,0 +1,142 @@
+.menu {
+  padding-bottom: 50px;
+  margin-top: 150px;
+  color: rgb(199, 155, 11);
+  font-size: 2.5rem;
+  background-color: midnightblue;
+  text-transform: capitalize;
+}
+.list-menu li {
+  padding: 15px 80px;
+  background: none;
+  display: flex;
+}
+.list-menu h4 {
+  margin-left: 60px;
+}
+.list-menu {
+  background-color: midnightblue;
+  color: khaki;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 24px;
+}
+.circle-list {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: khaki;
+  position: absolute;
+  margin-top: -7px;
+}
+.item {
+  padding: 5px;
+}
+.suggestion-container {
+  height: 450px;
+  background-color: midnightblue;
+  color: khaki;
+  padding-top: 60px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-around;
+}
+.container-h2 {
+  padding: 50px 0;
+}
+.suggestion-menu {
+  background-color: midnightblue;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+
+  position: relative;
+}
+.suggestion-circle {
+  background-color: khaki;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin: 25px 0;
+  left: 0;
+  border-radius: 50%;
+}
+.suggestion-img {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 0;
+  margin-top: -70px;
+  transform: rotate(-10deg);
+  transition: transform 0.3 ease;
+}
+@media (max-width: 1024px) {
+  .menu {
+    font-size: 2rem;
+  }
+
+  .menu li {
+    padding: 0 40px;
+  }
+
+  .list-menu {
+    font-size: 20px; 
+  }
+
+  .suggestion-container {
+    height: 100px;
+    margin-bottom: 200px;
+    padding-left: 25px;
+  }
+  .suggestion-circle {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+  }
+
+  .suggestion-img {
+    transform: rotate(-15deg); 
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    font-size: 1.5rem; 
+    margin-top: 100px; 
+  }
+
+  .list-menu {
+    flex-direction: column; 
+    font-size: 25px;
+  }
+  .list-menu li {
+    padding: 15px 140px;
+  }
+  .circle-list {
+    margin-right: 200px;
+    margin-top: -12px;
+  }
+  .suggestion-container {
+    flex-direction: column;
+    justify-content: start;
+    height: 180vw;
+  }
+  .suggestion-menu {
+    margin-bottom: 250px;
+  }
+  .suggestion-circle {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+  }
+  .suggestion-img {
+    width:auto;
+    height: 300px;
+    transform: rotate(-10deg);
+  }
+}

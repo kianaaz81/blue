@@ -1,0 +1,126 @@
+.about {
+  background-color: midnightblue;
+  margin: 100px 0;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+}
+.about h1 {
+  font-size: 3.5rem;
+  color: rgb(199, 155, 11);
+  margin-left: 155px;
+  padding: 30px;
+}
+.about p {
+  font-size: 1.4rem;
+  color: khaki;
+  width: 900px;
+  height: 150px;
+  text-align: start;
+  margin: 10px 70px;
+  justify-self: flex-end;
+}
+.circle-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-text1 {
+  background-color: midnightblue;
+  margin-top: -250px;
+  margin-left: -90rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotate 10s linear infinite;
+}
+.team-container {
+  background-color: midnightblue;
+  padding-bottom: 80px;
+}
+.team {
+  display: flex;
+  background: none;
+}
+.team-img {
+  width: auto;
+  height: 450px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.team-container h3 {
+  color: rgb(199, 155, 11);
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.team-container p {
+  width: 359px;
+  font-size: 1.2rem;
+}
+@media(max-width: 1024px) {
+  .about{
+   margin-bottom: 50px;
+  }
+  .about h1 {
+    width: 600px;
+    font-size: 2rem;
+  }
+  .about p {
+    font-size: 1.2rem;
+    width: 800px;
+  }
+  .team-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 296px;
+    padding: 30px;
+  }
+  .team-img {
+    width: 200px;
+    height: 300px;
+  }
+  .team-container h3 {
+    font-size: 1.5rem;
+  }
+  .team-container p {
+    width: 250px;
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    display: grid;
+    margin-bottom: 0;
+
+  }
+  .about h1 {
+    padding: 30px 0;
+    width: 300px;
+    font-size: 2rem;
+    margin-left: 110px;
+  }
+  .about p {
+    margin-left: 20px;
+    font-size: 1rem;
+    width: 500px;
+  }
+  .circle-container1 {
+    display: none;
+  }
+  .team {
+      width: 537px;
+    display: grid;
+    align-items: start;
+    justify-items: start;
+  }
+  .team-container {
+    padding-bottom: 0;
+    margin-left: 50px;
+  }
+  .team-container p {
+    width: 360px;
+  }
+}
